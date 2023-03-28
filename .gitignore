@@ -1,3 +1,7 @@
 /cmake-build-debug
 /DFS
-
+/x64
+/*.vcxproj
+/*.vcxproj.*
+/*.sln
+/.vs/

@@ -2,10 +2,11 @@
 // Created by Ashutosh Kumar on 27/03/23.
 //
 
-#ifndef GRAPH_TRAVERSAL_BFS_H
-#define GRAPH_TRAVERSAL_BFS_H
+#ifndef GRAPH_TRAVERSAL_GRAPH_H
+#define GRAPH_TRAVERSAL_GRAPH_H
 
 #include <vector>
+#include <map>
 
 template <typename T>
 class Graph
@@ -13,6 +14,8 @@ class Graph
 private:
     std::vector<std::vector<T> > edges;
     int numVertices;
+
+    void dfs_helper(T node, std::map<T, bool> &discovered);
 
 public:
     Graph() {}
@@ -25,9 +28,10 @@ public:
 
     void addEdge(int a, int b);
     void bfs(T source);
+    void dfs(T source);
 
 };
 
 
 
-#endif //GRAPH_TRAVERSAL_BFS_H
+#endif //GRAPH_TRAVERSAL_GRAPH_H
