@@ -20,10 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd92bcfa-b072-467e-b732-9079f80da636" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BFS/bfs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BFS/bfs.h" afterDir="false" />
-    </list>
+    <list default="true" id="bd92bcfa-b072-467e-b732-9079f80da636" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +85,7 @@
       <updated>1679947562367</updated>
       <workItem from="1679947567342" duration="128000" />
       <workItem from="1679947913492" duration="4402000" />
+      <workItem from="1679962421014" duration="116000" />
     </task>
     <servers />
   </component>
